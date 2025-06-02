@@ -7,6 +7,8 @@ export default function Cybersecurity()
                 return <div className="border border-gray-200 hover:scale-105 transition-all duration-300 rounded-md shadow-xl">
                         <img src={m.img} alt="img not fund" className="h-2/5 w-full rounded-t-md"/>
                         <div className="h-3/5 grid grid-cols-1  pt-3">
+                
+                
                             <div className="font-semibold pl-5 pr-4">{m.name}</div>
                             <div className="uppercase font-semibold text-justify pl-5 pr-4"> {m.d1} </div>
                             <div className="text-gray-400 pl-5 pr-4"> {m.d2} </div>
